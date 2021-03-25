@@ -9,7 +9,7 @@ export default class Home extends Component {
             <Link to="/profile" > В профиль</Link>
             <Link to="/login" > Логин</Link>
                 Стартовая страница
-                <h1>ЭТО ГЛАВНАЯ СТРАНИЦА НИ ОДНА ДРУГАЯ НЕ ГЛАВНАЯ</h1>
+                <h1>ЭТО ГЛАВНАЯ СТРАНИЦА НИ ОДНА ДРУГАЯ НЕ ГЛАВНАЯ тут есть изменение</h1>
             </div>
         )
     }
