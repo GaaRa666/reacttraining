@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Redirect} from "react-router-dom"
+import './Login.scss'
 
 export default class Login extends Component {
     constructor(props){
@@ -45,8 +46,8 @@ export default class Login extends Component {
             return (
                 <div>
                     Login
-                    <input type='text'  value={this.state.login} onChange={this.loginHandler} placeholder='login'/>
-                    <input type='text' value = {this.state.password} onChange = {this.passwordHandler} placeholder='password'/>
+                    <input className = 'login' type='text'  value={this.state.login} onChange={this.loginHandler} placeholder='login'/>
+                    <input className = 'password' type='text' value = {this.state.password} onChange = {this.passwordHandler} placeholder='password'/>
                     <button onClick = {this.loginButtom}>Login</button>
                 </div>
             )
